@@ -26,6 +26,6 @@ const countHours = setInterval(() => {
 
   if (eventDistance < 0) {
     clearInterval(countHours);
-    span.innerHTML = "Evento Expirado"
+    span.innerHTML = "Evento Expirado";
   }
 }, 1000);
